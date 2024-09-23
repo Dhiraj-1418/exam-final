@@ -1,0 +1,185 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(201,239,201,1) 100%);
+    overflow: hidden;
+}
+header
+{
+    height: 8vh;
+    width: 100vw;
+    background-color: #164B60;
+}
+header table
+{
+    width: 100%;
+
+}
+header .left
+{
+    padding: 23px 30px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+header .right
+{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 300;
+}
+header a
+{
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+   
+    
+}
+header .user
+{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 8px 10px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.circle
+{
+    height: 900px;
+    width: 900px;
+    background-color: #fd8d14;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 100vh;
+    left: 73%;
+}
+.men
+{
+    height: 500px;
+    width: 600px;
+}
+img
+{
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 68%;
+    left: 71%;
+}
+.container
+{
+    margin: auto;
+    height: 100vh;
+    width: 90%;
+    
+   
+}
+.para
+{
+    position: absolute;
+    top: 500px;
+    height: 200px;
+    width: 500px;
+   
+}
+p
+{
+    font-size: 23px;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+ 
+ 
+}
+.button .b
+{
+    color: white;
+    
+    border-radius:10px ;
+    background-color: #fd8d14;
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 20px 20px ;
+    font-size: 15px;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+      
+
+    
+}
+.button
+{
+    margin-top:150px ;
+    
+}
+.container:hover
+{
+    
+    .circle 
+    {
+        transition-duration: 0.8s;
+    
+        background-color: #f0de36    ;
+    }
+        
+}
+.container:hover
+{
+   
+    .b
+    {
+        transition-duration: 0.8s;
+        background-color: #f0de36    ;
+        color: black;
+        border: none;
+        
+    }
+}
+h1
+{
+    position: absolute;
+    top: 40%;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+     font-style: normal;
+}
+hr
+{
+    background-color: black;
+    position: absolute;
+    top: 36%;
+    width: 60px;
+    height: 2px;
+    
+}
